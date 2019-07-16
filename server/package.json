@@ -1,0 +1,23 @@
+{
+  "name": "apollo-space-explorer-server",
+  "version": "0.1.0",
+  "description": "Server for Apollo Space Explorer Application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": "https://github.com/heathryu/apollo-space-explorer.git",
+  "author": "Heath Ryu",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.6.9",
+    "graphql": "^14.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  }
+}
